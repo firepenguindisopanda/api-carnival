@@ -1,0 +1,43 @@
+{
+  "notes": [
+    {
+      "id": "1",
+      "content": "HTML is easy",
+      "important": true
+    },
+    {
+      "id": "2",
+      "content": "Browser can execute only JavaScript",
+      "important": false
+    },
+    {
+      "id": "3",
+      "content": "GET and POST are the most important methods of HTTP protocol",
+      "important": true
+    },
+    {
+      "id": "4",
+      "content": "adding New not to server",
+      "date": "2024-10-19T21:18:31.852Z",
+      "important": false
+    },
+    {
+      "id": "5",
+      "content": "a new note...another add to server",
+      "date": "2024-10-31T04:54:32.347Z",
+      "important": true
+    },
+    {
+      "id": "6",
+      "content": "What is in a name ?",
+      "date": "2024-10-31T17:44:48.167Z",
+      "important": false
+    },
+    {
+      "id": "7",
+      "content": "What do you mean when you say the would \"I\"",
+      "date": "2024-10-31T17:45:19.069Z",
+      "important": false
+    }
+  ]
+}
