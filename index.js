@@ -8,9 +8,10 @@ const app = express();
 
 app.use(express.json());
 app.use(cors());
+app.use(express.static('dist'));
 
 app.get('/', (request, response) => {
-    response.send('<h1>Welcome to the API</h1>');
+    response.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 
 let notes = [
@@ -157,7 +158,7 @@ app.use((request, response) => {
 });
 
 app.use((err, req, res, next) => {
-    console.errror(err.stack);
+    console.error(err.stack);
     response.status(500).send({ error: 'Something went wrong on the server!' });
 });
 
